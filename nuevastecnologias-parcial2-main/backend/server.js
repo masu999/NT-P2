@@ -98,7 +98,7 @@ app.get('/api/test', async (req, res) => {
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/productos', require('./routes/productos'));
 app.use('/api/zonas', require('./routes/zonas'));
-// app.use('/api/pedidos', require('./routes/pedidos'));
+app.use('/api/pedidos', require('./routes/pedidos'));
 // app.use('/api/usuarios', require('./routes/usuarios'));
 
 // Middleware para rutas no encontradas
